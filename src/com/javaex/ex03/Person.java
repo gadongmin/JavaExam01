@@ -45,6 +45,7 @@ public class Person {
 	public String toString() {
 		return "Peson [name=" + name + ", hp=" + hp + ", cp=" + cp + "]";
 	}
+
 	public void showInfo() {
 		System.out.println("---------------------------------");
 		System.out.println("이  름: " + name);
